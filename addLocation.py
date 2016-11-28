@@ -2,7 +2,7 @@
 
 import simplejson as json
 
-jsonfile_skolenavn = json.load(open('skolenavn.py-felles-2016-17.json'))
+jsonfile_skolenavn = json.load(open('skolenavn-felles-2016-17.json'))
 jsonfile_skoledata = json.load(open('./Data/skoler.json'))
 
 temp = []

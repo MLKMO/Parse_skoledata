@@ -2,11 +2,11 @@ import csv
 import json
 
 csvfile = open('skolerute-felles-2016-17.csv', 'rU')
-csvfile_skolenavn = open('skolenavn.py-felles-2016-17.csv', 'rU')
+csvfile_skolenavn = open('skolenavn-felles-2016-17.csv', 'rU')
 csvfile_skoledata = open('./Data/skoler.csv', 'rU')
 
 jsonfile = open('skolerute-felles-2016-17.json', 'w')
-jsonfile_skolenavn = open('skolenavn.py-felles-2016-17.json', 'w')
+jsonfile_skolenavn = open('skolenavn-felles-2016-17.json', 'w')
 jsonrile_skoledata = open('./Data/skoler.json', 'w')
 
 # Open the CSV
