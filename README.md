@@ -1,8 +1,12 @@
 # Parse_skoledata
-Filtrering av data og parsing fra .CSV til .JSON
-
+Filtrering av data og parsing fra .CSV til .JSON.  
+Alle datasett er lastet ned fra Stavanger kommune sine nettsider:  
+  * [Skolerute Stavanger](https://open.stavanger.kommune.no/dataset/skolerute-stavanger)  
+  * [Skolerute Gjesdal](https://open.stavanger.kommune.no/dataset/skoleruten-for-gjesdal-kommune)
+  * [Skoler Stavanger](https://open.stavanger.kommune.no/dataset/skoler-stavanger)
+  
 ## 1. changeEncoding.py
-Gjesdal kommune sin CSV-fil er har ANSI enkoding. Denne endres til UTF8. I tillegg fjernes mellomrom som ikke skal være i CSV filen.  
+Gjesdal kommune sin CSV-fil har ANSI enkoding. Denne endres til UTF8. I tillegg fjernes mellomrom som ikke skal være i CSV filen.  
   * Lagres som: _skolerute-gjesdal-kommune.csv_
 
 ## 2. filterCSV.py  
